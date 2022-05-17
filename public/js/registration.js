@@ -19,7 +19,7 @@ $(document).ready(function () {
             });
             $.ajax({
                 type: "POST",
-                url: '/register-user',
+                url: 'register-user',
                 data: data,
                 dataType: "json",
                 success: function (feedback) {
@@ -31,7 +31,7 @@ $(document).ready(function () {
                         });
                     }else{
                         alert('Registration Successful');
-                        window.location='/login';
+                        window.location='login';
                     }
                                        
                     
