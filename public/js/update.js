@@ -39,7 +39,7 @@ $(document).ready(function(){
     })
 })
 
-$("#toggle").change(function () {
+$("#pro_toggle").change(function () {
     if ($(this).is(':checked')) {
        $("#form_passwords").attr("type", "text");
        $("#pro_toggleText").text("Hide");
