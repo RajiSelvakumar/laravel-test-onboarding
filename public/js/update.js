@@ -41,10 +41,10 @@ $(document).ready(function(){
 
 $("#toggle").change(function () {
     if ($(this).is(':checked')) {
-       $("#form_password").attr("type", "text");
+       $("#form_passwords").attr("type", "text");
        $("#pro_toggleText").text("Hide");
     } else {
-       $("#form_password").attr("type", "password");
+       $("#form_passwords").attr("type", "password");
        $("#pro_toggleText").text("Show");
     }
 

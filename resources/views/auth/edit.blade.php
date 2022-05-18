@@ -72,7 +72,7 @@
                                         <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
                                     </svg></span>
                                 <label for="">Password</label>
-                                <input type="password" id="form_password" name="password" class="form-control password" placeholder="Password" style="margin-bottom: 3%;" value="{{$data->password}}">
+                                <input type="password" id="form_passwords" name="password" class="form-control password" placeholder="Password" style="margin-bottom: 3%;" value="{{$data->password}}">
                                 <span class="error_form" id="password_error_message" style="font-size: 16px; color:red;"></span>
                                 <span><input type='checkbox' id='pro_toggle'>&nbsp; <span id='pro_toggleText'>Show Password</span></span>
                             </div>
